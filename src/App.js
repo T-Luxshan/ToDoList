@@ -1,3 +1,6 @@
+import React from 'react';
+import 'bootstrap/dist/css/bootstrap.css';
+import { FaPlus } from 'react-icons/fa';
 import { useState } from 'react';
 import './App.css';
 import {Task} from './Task';
@@ -39,13 +42,20 @@ function App() {
   }
    
   return (
-    <div className="App">
-      {/* <header className="App-header">
-      </header> */}
-      <div className='addTask'>
-        <input onChange={handleChane}/>&nbsp;
-        <button onClick={addTask}>Add Task</button>
-      </div>
+    <div className="Ap  p">
+            <div className="container addTask">
+              <h1 style={{padding:"10px"}} className="addTask-head">ToDo App</h1>
+                <div className="row">
+                  <div className="col-4">
+                      <input className='textBox' onChange={handleChane} placeholder="Add your new todo"/>&nbsp;
+                  </div>
+                  <div className="col-4">
+                      <button className='btn btn-outline-success addBtn' onClick={addTask}><FaPlus size={30} /></button>
+                  </div>
+                </div>
+            </div>
+     
+
       <div className='list'>
           {toDoList.map((task) => {
             return ( 

@@ -1,7 +1,53 @@
+
 .App {
-  text-align: center;
+  /* align-items: center; */
+  /* border: solid black;
+  background-color: antiquewhite;
+  max-width: 120vh; */
+}
+.addTask{
+  margin-left: 20rem;
+  margin-top: 5rem;
+  /* padding-left: 12rem; */
+  border: solid black;
+  /* display: flex; */
+   /* justify-content: center; */
+  /* align-items: center;  */
+  width: 100vh;
+
+}
+.list{
+  /* display: inline; */
+  margin-left: 20rem;
+  margin-top: 0rem;
+  /* padding-left: 12rem; */
+  border: solid black;
+  width: 100vh;
+
+}
+.addTask-head{
+  text-align: left;
+  margin: 1rem 10rem 1rem -0.9rem;
+  /* padding-bottom: 10rem; */
+  /* border: solid rgb(254, 5, 5); */
+  /* display: flex; */
+   /* justify-content: center; */
+  /* align-items: center;  */
+  /* width: 120vh; */
 }
 
+.addBtn{
+  margin-left:15rem ;
+  margin-right: 0;
+  width: 4rem; 
+  height: 3rem; 
+  padding: 0px 0px 0 0px;
+}
+.textBox{
+  width: 26rem; 
+  height: 3rem; 
+  padding: 10px; 
+}
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -14,13 +60,10 @@
 }
 
 .App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
+  
+  /* flex-direction: column; */
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  font-size: 2rem;
   color: white;
 }
 
