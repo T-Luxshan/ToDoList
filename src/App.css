@@ -1,15 +1,17 @@
 
-.App {
-  /* align-items: center; */
-  /* border: solid black;
-  background-color: antiquewhite;
-  max-width: 120vh; */
+body{
+  /* .yellow-gradient { */
+    background: linear-gradient(to left, #ffffcc, #fff5bd, #fff0b7, #ffebb1);
+  /* } */
 }
+
 .addTask{
-  margin-left: 20rem;
+  background-color: rgb(255, 255, 255);
+  border-radius:  1rem 1rem 0 0;
+  margin-left: 23rem;
   margin-top: 5rem;
   /* padding-left: 12rem; */
-  border: solid black;
+  /* border: solid black; */
   /* display: flex; */
    /* justify-content: center; */
   /* align-items: center;  */
@@ -17,36 +19,50 @@
 
 }
 .list{
-  /* display: inline; */
-  margin-left: 20rem;
+  background-color: rgb(255, 255, 255);
+  padding-bottom: 1rem;
+  border-radius: 0 0 1rem 1rem;
+  margin-left: 23rem;
   margin-top: 0rem;
-  /* padding-left: 12rem; */
-  border: solid black;
   width: 100vh;
 
 }
 .addTask-head{
   text-align: left;
-  margin: 1rem 10rem 1rem -0.9rem;
-  /* padding-bottom: 10rem; */
-  /* border: solid rgb(254, 5, 5); */
-  /* display: flex; */
-   /* justify-content: center; */
-  /* align-items: center;  */
-  /* width: 120vh; */
+  margin: 1rem 10rem 1rem 0.5rem;
+  
 }
 
 .addBtn{
-  margin-left:15rem ;
+  margin-left:16rem ;
   margin-right: 0;
   width: 4rem; 
   height: 3rem; 
   padding: 0px 0px 0 0px;
 }
 .textBox{
+  margin-left:1rem ;
   width: 26rem; 
   height: 3rem; 
   padding: 10px; 
+}
+.listItem{
+  margin-left:2rem ;
+  margin-bottom: 0.2rem;
+  justify-content: center;
+  height: 3rem;
+  width: 21rem;
+}
+.listBtns{
+  display: inline;
+  margin-left:11rem;
+  height: 3rem;
+}
+.listBtn1, .listBtn2{
+  height: 3rem;
+}
+.listBtn2{
+  width: 3rem;
 }
 .App-logo {
   height: 40vmin;
@@ -68,7 +84,7 @@
 }
 
 .App-link {
-  color: #61dafb;
+  color: #f2f7fa;
 }
 
 @keyframes App-logo-spin {
