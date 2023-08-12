@@ -42,9 +42,9 @@ function App() {
   }
    
   return (
-    <div className="Ap  p">
+    <div className="App">
             <div className="container addTask">
-              <h1 style={{padding:"10px"}} className="addTask-head">ToDo App</h1>
+              <h1 style={{padding:"10px"}} className="addTask-head">To-Do App</h1>
                 <div className="row">
                   <div className="col-4">
                       <input className='textBox' onChange={handleChane} placeholder="Add your new todo"/>&nbsp;
