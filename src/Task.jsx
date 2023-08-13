@@ -3,7 +3,8 @@ export const Task = (props) => {
     <div>
           <div className="row">
                   <div className="col-4">
-                      <div style={{backgroundColor: props.completed ? "#198754" : "#f2f7fa"}}class="card listItem">
+                      <div style={{backgroundColor: props.completed ? "#198754" : "#f2f7fa",
+                                  color: props.completed ? "white" : "black"}}class="card listItem">
                         <div class="card-body">
                           {props.taskName}
                         </div>

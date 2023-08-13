@@ -9,8 +9,6 @@ function App() {
 
   const [toDoList, setToDoList] = useState([]); 
   const [newTask, setNewTask] = useState("");
-  // const [completeColor, setcompleteColor] = useState("black");
-
   const handleChane = (event) => {
     setNewTask(event.target.value);
   };

@@ -1,6 +1,7 @@
 
 body{
-    background: linear-gradient(to left, #ffffcc, #fff5bd, #fff0b7, #ffebb1);
+    /* background: linear-gradient(to left, #ffffcc, #fff5bd, #fff0b7, #ffebb1); */
+    background-color: #1D2028;
 }
 
 .addTask{
