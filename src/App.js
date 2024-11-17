@@ -4,6 +4,9 @@ import { FaPlus } from 'react-icons/fa';
 import { useState } from 'react';
 import './App.css';
 import {Task} from './Task';
+import { addNewTask } from './service/ToDoService'; 
+
+import axios from "axios";
 
 function App() {
 
@@ -13,14 +16,19 @@ function App() {
     setNewTask(event.target.value);
   };
 
-  const addTask = () => {
+  const addTask = async () =>  {
     const task = {
       id: toDoList.length === 0 ? 1 : toDoList[toDoList.length-1].id + 1,
       taskName: newTask,
       completed: false
     }
-
+    console.log(task.id);
+    console.log(task.taskName);
+    console.log(task.completed);
     setToDoList([...toDoList, task])
+
+    const response = await addNewTask(task.taskName, task.completed);
+    console.log(response);
   }
 
   const taskCompleted = (id) => {
